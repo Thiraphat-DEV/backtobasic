@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.22/dist/vanta.clouds2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.22/dist/vanta.clouds.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.CLOUDS({
+          el: ".container",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          skyColor: 0x73cf73,
+          cloudColor: 0xd742d7,
+          sunColor: 0xfc7e00,
+          sunGlareColor: 0xbe330e
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img
+          class="image"
+          src="https://scontent.fnak2-1.fna.fbcdn.net/v/t31.18172-8/21640913_492671094436520_1574784312240017726_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEptDgVgZY-KZG9JBv5VBab-uJkbOlkA8r64mRs6WQDyjdTl-C-Elp-TLeQ3plNAmFR33zPSmv4Hlp9SxkPdW5s&_nc_ohc=kBP02W6mHIwAX-T_Dsp&_nc_ht=scontent.fnak2-1.fna&oh=00_AT8hTLf0kAR14sx7oDGPX4Bguo2SJhIa-wq8F-hoT9Qncw&oe=62F9F8F3"
+          alt="profile"
+        />
+        <h1 id="mirror">Thiraphat-DEV</h1>
+      </div>
+      <ul>
+        <li>
+          <i class="fa-solid fa-code"></i>
+          <a href="https://thiraphat.vercel.app/">My Website</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <a href="https://www.linkedin.com/in/thiraphat-chorakhe-970572211/"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-github-alt"></i>
+          <a href="https://github.com/Thiraphat-DEV">Github</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <a href="https://www.facebook.com/thiraphat.boat/">Facebook</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
